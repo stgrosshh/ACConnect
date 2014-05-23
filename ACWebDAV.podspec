@@ -16,8 +16,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
      LICENSE
   }
   s.author       = { "jkichline" => "jason@onsongapp.com" }
-  s.source       = { :git => "https://github.com/htaiwan/ACConnect.git" }
+  s.source       = { :git => "https://github.com/htaiwan/ACConnect.git", :tag => "0.0.1"  }
   s.platform     = :ios, '5.0'
-  s.source_files = 'ACConnect/'
+  s.source_files = 'ACConnect/' , 'ACConnect/src/ACWebDAV/*.{h,m}'
   s.requires_arc = true
 end
