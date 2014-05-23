@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "ACWebDAV "
+  s.name         = "ACWebDAV"
   s.version      = "0.0.1"
   s.summary      = "Client libraries for connecting with HTTP, FTP, S3 and WebDAV servers."
   s.homepage     = "https://github.com/jkichline/ACConnect"
