@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name         = "ACWebDAV"
   s.version      = "0.0.1"
   s.summary      = "Client libraries for connecting with HTTP, FTP, S3 and WebDAV servers."
-  s.homepage     = "https://github.com/jkichline/ACConnect"
+  s.homepage     = "https://github.com/htaiwan/ACConnect"
   s.license      = {
     :type => 'MIT',
     :text => <<-LICENSE
@@ -16,9 +16,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
      LICENSE
   }
   s.author       = { "jkichline" => "jason@onsongapp.com" }
-  s.source       = { :git => "https://github.com/jkichline/ACConnect.git" }
+  s.source       = { :git => "https://github.com/htaiwan/ACConnect.git", :tag => "0.0.1" }
   s.platform     = :ios, '5.0'
-  s.source_files = 'https://github.com/htaiwan/ACConnect/tree/master/src/ACWebDAV/*.{h,m}'
+  s.source_files = 'ACConnect/tree/master/src/ACWebDAV/*.{h,m}'
   s.resources = ""
   s.framework  = ''
   s.requires_arc = true
